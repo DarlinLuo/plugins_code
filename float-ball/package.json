@@ -1,0 +1,39 @@
+{
+  "name": "suspension-ball",
+  "version": "1.0.1",
+  "private": false,
+  "license": "MIT",
+  "description": "可滑动的悬浮球,自动吸附边缘,类似ios的辅助触控,支持pc、手机端",
+  "keywords": ["悬浮球", "自动吸附边缘", "滑动", "suspension", "adsorbent", "vue", "photo", "ios", "android", "javascript", "typescript"],
+  "author": "lizhenchao",
+  "main": "dist/suspensionBall.common.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name suspensionBall ./src/index.ts",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/ChaoXxxx/suspension-ball.git"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.2",
+    "vue-property-decorator": "^8.3.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-typescript": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.7.5",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
